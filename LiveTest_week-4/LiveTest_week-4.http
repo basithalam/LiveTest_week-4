@@ -1,0 +1,6 @@
+@LiveTest_week_4_HostAddress = http://localhost:5114
+
+GET {{LiveTest_week_4_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
