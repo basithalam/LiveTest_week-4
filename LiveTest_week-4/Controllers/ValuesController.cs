@@ -6,7 +6,7 @@ namespace LiveTest_week_4.Controllers
     [Route("api/[controller]")]
     public class ValuesController : ControllerBase
     {
-        // ✅ GET: api/values
+        // GET: api/values
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
